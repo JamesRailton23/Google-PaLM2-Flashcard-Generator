@@ -1,0 +1,49 @@
+# ****1.2.9 Python implementations****
+
+---
+
+- Within python 3 and python 2 there are many different implementations of python
+
+- Python has many different specialised implementations that it has been used for
+
+- One implementation is CPython, this is the first and reference implementation of python
+    - it was created by Guido van rossum
+    - It is commonly just called python
+    
+- The python software foundation or PSF maintains the different implementations of python
+
+- the PSF exists to further the goals of python within the world
+    - Guido van Rossum is the president of the PSF
+    - the implementations that are maintained by the PSF are considered to be canonical / reference version of python due to following the standards outlined by the PSF
+    
+- Guido van rossum created the first version of python using the C programming language
+    - All versions of python that are maintained by the PSF are written in the C programming language
+    - C was chosen for python due to it being ubiquitous within computing and computing platforms as such this would make python easily portable to different platforms and would allow for easy expansion of python
+    
+- some of the more popular versions of python implementations are
+    - CPython
+        - this is the reference version of python created by Gudio van rossum
+        - it uses the C programming language
+        - CPython allows for easily mathematical formulas to be inserted into python and then to be executed quickly
+        - CPython translates python code into C when it is executed to allow it to be run quickly
+    - Jython
+        - this implementation of python was written in java instead of the C programming language
+        - it is commonly used within IT systems that have been written within java however requires python to perform some tasks
+        - It was created as CPython would be hard to integrate within a python java environment due to the differences between java and C
+        - Jython has the ability to communicate with existing java infrastructure that has already been developed without major changes required
+        - It is currently only supported within python 2 and not python 3
+    - PyPy
+        - PyPy is a python environment that has been written within a python like language called RPython
+        - The source code within PyPy is not run via the use of interpretation instead it is translated into the C programming language and then executed separately
+        - PyPy is commonly used for the testing of new features that will be introduced into main version of python
+        - as such PyPy is a tool that is used for the developers of software that is being developed for python rather than general python programmers who use python
+        - PyPy is compatible with the latest version of Python 3
+    - MicroPython
+        - MicroPython is a implementation of python that is designed to run on microcontrollers
+        - it is compatible with python 3
+        - it contains a small amount of python standard libraries but however it contains a large amount of features such as an interactive prompt or arbitrary precision integers as well as modules that allow developers to gain low level hardware access within the microcontrollers
+        - MicroPython was created by Damien George in 2013 from a Kickstarter campaign
+        - MicroPython was first released with a product called a pyboard that used a STM32F4 powered computer chip
+        - MicroPython was used to create CircuitPython, this was a open source programming language that also runs on microcontrollers
+
+---
